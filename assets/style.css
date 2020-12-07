@@ -1,0 +1,53 @@
+body{
+    background-color: lightgray ;
+}
+
+.navigation .navbar-brand{
+    color: white;
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    
+.navbar-nav{
+    position: absolute;
+    right: 5px;
+}
+
+
+.summary-pic{
+    float: left;
+}
+.left-box{
+    background-color: white;
+    margin-top: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+
+.right-box{
+    background-color: white;
+    margin-top: 11.5%;
+    margin-left: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+.title{
+    color:cadetblue;
+    font-weight: bold ;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+
+
+
