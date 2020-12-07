@@ -17,7 +17,11 @@ body{
     position: absolute;
     right: 5px;
 }
+.image:hover{
+    background-color: dodgerblue;
+    border-style: solid;
 
+}
 
 .summary-pic{
     float: left;
@@ -38,7 +42,9 @@ body{
     padding-left: 3%;
     padding-right: 4%;
     padding-bottom: 3%;
-}
+} 
+
+
 .title{
     color:cadetblue;
     font-weight: bold ;
@@ -54,6 +60,23 @@ body{
     padding-right: 3%;
     padding-bottom: 3%;
 }
+
+.comparison{
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+h6{
+    color: cadetblue;
+    text-align: center;
+}
+
 
 
 
