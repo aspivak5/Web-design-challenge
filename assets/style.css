@@ -25,7 +25,14 @@ body{
 
 .summary-pic{
     float: left;
+    width: 50%;
 }
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
 .left-box{
     background-color: white;
     margin-top: 8%;
@@ -46,12 +53,21 @@ body{
 } 
 
 
+
 .title{
     color:cadetblue;
     font-weight: bold ;
     text-align: left;
     padding-top: 3%;
     padding-left: 3%;
+}
+
+
+ .comparison{
+   position: absolute;
+   margin-top: 5%;
+   margin-left: 6%;
+   margin-right: 8%;
 }
 
 .data-table{
@@ -62,21 +78,13 @@ body{
     padding-bottom: 3%;
 }
 
-.comparison{
-    background-color: white;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 5%;
-    padding-bottom: 5%;
-}
 
 h6{
     color: cadetblue;
     text-align: center;
+
 }
+
 
 
 
