@@ -1,5 +1,5 @@
 .bg-light{
-    background-color: white !important;
+    background-color: white !important ;
 }
 body{
     background-color: lightgray ;
@@ -15,14 +15,13 @@ body{
     cursor: pointer;
 }
 
-    
 .navbar-nav{
     position: absolute;
     right: 5px;
 }
 .image:hover{
-    background-color: dodgerblue;
     border-style: solid;
+    color: cadetblue;
 
 }
 
@@ -53,6 +52,7 @@ img{
     padding-left: 3%;
     padding-right: 4%;
     padding-bottom: 3%;
+    
 } 
 
 
@@ -86,20 +86,23 @@ h6{
 
 }
 
-@media (max-width:980px) {
-    .bg-light{
-        background-color:cadetblue!important;
-    }
-    
+@media (max-width:990px) {
     .navbar{
         max-height: none; 
         padding: inherit;
     }
+
     .navbar div{
-        margin: auto; 
+        margin: inherit; 
         background-color: white; 
     }
-   
+
+    .navbar-expand-lg {
+        background-color:cadetblue!important;
+    }
+    
+
+
     ul{
         position: absolute;
         left: 5px;
@@ -113,12 +116,13 @@ h6{
         margin-top:0.95%;
         margin-left: -5px;
         margin-right: -5px;
-    } */
-/* 
-    .navbar-nav li{
-        background-color: white;
+    }  */
+
+    /* .navbar-nav{
+        background-color: rgba(0, 0, 0, 0.6);
+
     
-    }   */
+    }    */
 
     
 
