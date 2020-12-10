@@ -1,12 +1,13 @@
-.bg-light{
-    background-color: white !important ;
+
+ .navbar-expand-lg{
+    background-color: white !important;
 }
 body{
     background-color: lightgray ;
 }
 
 .navigation .navbar-brand{
-    color: white;
+    color:white;
     display: inline-block;
     background-color: cadetblue;
     padding: 10px;
@@ -16,8 +17,9 @@ body{
 }
 
 .navbar-nav{
-    position: absolute;
-    right: 5px;
+    position: sticky;
+    left: 80% ;
+    z-index: 1;
 }
 .image:hover{
     border-style: solid;
@@ -51,7 +53,7 @@ img{
     margin-left: 4%;
     padding-left: 3%;
     padding-right: 4%;
-    padding-bottom: 3%;
+    padding-bottom: 20%;
     
 } 
 
@@ -100,29 +102,34 @@ h6{
     .navbar-expand-lg {
         background-color:cadetblue!important;
     }
+
+    .navbar-nav{
+        position: relative;
+        left:0px ;
+    }
     
 
-
+/* 
     ul{
         position: absolute;
         left: 5px;
         z-index: 1;
-    }
+    } */
 
-      /* .navbar-nav{
+    /* .navbar-nav{
         position: absolute;
         left: 5px;
         z-index: 1;
         margin-top:0.95%;
         margin-left: -5px;
         margin-right: -5px;
-    }  */
+    }  
 
-    /* .navbar-nav{
-        background-color: rgba(0, 0, 0, 0.6);
-
-    
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, 0.6); 
     }    */
+
+  
 
     
 
