@@ -13,7 +13,7 @@ body{
     padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    cursor: pointer;
+    border-radius: 30px;
 }
 
 .navbar-nav{
@@ -45,6 +45,8 @@ img{
     padding-right: 3%;
     padding-bottom: 5%;
     margin-bottom: 5%;
+    border-radius: 30px;
+
 }
 
 
@@ -55,7 +57,7 @@ img{
     padding-left: 3%;
     padding-right: 4%;
     padding-bottom: 8%;
-    
+    border-radius: 30px;
 } 
 
 
@@ -69,17 +71,20 @@ img{
 }
 
 
- .comparison{
-   position: absolute;
+ #comparison{
    margin-top: 5%;
-   margin-left: 6%;
+   margin-left: 8%;
    margin-right: 8%;
 }
 
 .data-table{
     background-color: white;
-     margin-top: 3%;
+    margin-top: 3%;
     margin-bottom: 3%;  
+    border-radius: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
 }
 
 
