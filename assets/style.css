@@ -1,15 +1,15 @@
 
  .navbar-expand-lg{
-    background-color: white !important;
+    background-color: lightgray !important;
 }
 body{
-    background-color: lightgray ;
+    background-color: aliceblue ;
 }
 
 .navigation .navbar-brand{
     color:white;
     display: inline-block;
-    background-color: cadetblue;
+    background-color: dodgerblue;
     padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
@@ -23,7 +23,7 @@ body{
 }
 .image:hover{
     border-style: solid;
-    color: cadetblue;
+    color: dodgerblue;
 
 }
 
@@ -63,7 +63,7 @@ img{
 
 
 .title{
-    color:cadetblue;
+    color:dodgerblue;
     font-weight: bold ;
     text-align: left;
     padding-top: 3%;
@@ -89,7 +89,7 @@ img{
 
 
 h6{
-    color: cadetblue;
+    color: dodgerblue;
     text-align: center;
 
 }
@@ -106,7 +106,7 @@ h6{
     }
 
     .navbar-expand-lg {
-        background-color:cadetblue!important;
+        background-color:dodgerblue!important;
     }
 
     .navbar-nav{
